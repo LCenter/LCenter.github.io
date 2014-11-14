@@ -1,26 +1,32 @@
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  font-family: Open Sans, sans-serif;
 }
-ul.nav {
-  font-family: 'Arvo', courier, serif;
-  font-size: 13px;
+
+.navbar-brand{
+  font-family: Droid serif, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
 }
-.jumbotron {
-  text-align: center;
-  background-image: url(../img/hero-image.jpg);
-  color: white;
+
+.top-section {
+  background: #1abc9c;
 }
-.jumbotron h1 {
-  font-family: 'Arvo', courier, serif;
-  margin-top: 0px;
-  margin-bottom: 50px;
+.top-info h3 {
+  color: #fff;
+  font-size: 45px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+  font-family: Open Sans Condensed, sans-serif;
+  text-transform: uppercase;
+  margin-top: 90px;
+  font-weight: 10;
 }
-.jumbotron p {
-  margin-bottom: 30px;
-  font-weight: 100;
-  padding: 0 50px;
+.top-info h3 span {
+  font-size: 75px;
+  display: block;
 }
-.btn-lg {
-  font-size: 36px;
-}  
+.top-info p {
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}

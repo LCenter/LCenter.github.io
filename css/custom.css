@@ -1,0 +1,10 @@
+body {
+  background-color: #f00;
+}
+p {
+  color: #f00;
+}
+.top-info h3 span {
+  font-size: 75px;
+  display: block;
+}
